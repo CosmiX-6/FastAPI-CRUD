@@ -1,5 +1,7 @@
 # FastAPI CRUD
 
+https://fastapi-mongo-crud.herokuapp.com/docs
+
 ├── .env
 ├── Procfile 
 ├── app
