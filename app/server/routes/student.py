@@ -1,14 +1,14 @@
 from fastapi import APIRouter, Body
 from fastapi.encoders import jsonable_encoder
 
-from server.database import (
+from app.server.database import (
     add_student,
     delete_student,
     retrieve_student,
     retrieve_students,
     update_student,
 )
-from server.models.student import (
+from app.server.models.student import (
     ErrorResponseModel,
     ResponseModel,
     StudentSchema,
